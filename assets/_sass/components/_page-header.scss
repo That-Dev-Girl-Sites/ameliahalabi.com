@@ -1,0 +1,79 @@
+/**
+ * Page header styles.
+ */
+
+.page-header {
+  background: $black;
+
+  .title {
+    color: $white;
+    font-family: $sans;
+    margin: 0 auto;
+    padding: 3.5rem;
+    text-align: center;
+    width: 65%;
+  }
+
+  h1 {
+    border-bottom: 1px solid $white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  nav {
+    border-top: 1px solid $white;
+    font-family: $sans;
+
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    li {
+      border-left: 1px solid $white;
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+
+    a {
+      color: $white;
+      display: inline-block;
+      padding: 1rem 0;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    li:nth-child( 1 ) a {
+      background: $orchid;
+
+      &:hover, &:focus {
+        background: darken( $orchid, 10% );
+      }
+    }
+
+    li:nth-child( 2 ) a {
+      background: $darklavender;
+
+      &:hover, &:focus {
+        background: darken( $darklavender, 10% );
+      }
+    }
+
+    li:nth-child( 3 ) a {
+      background: $navy;
+
+      &:hover, &:focus {
+        background: darken( $navy, 10% );
+      }
+    }
+  }
+}
