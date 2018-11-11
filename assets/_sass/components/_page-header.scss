@@ -12,6 +12,11 @@
     padding: 3.5rem;
     text-align: center;
     width: 65%;
+
+    @media screen and ( min-width: $lg-screen ) {
+      padding: 3rem 0;
+      width: 80%;
+    }
   }
 
   h1 {
@@ -19,27 +24,49 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
+
+    @media screen and ( min-width: $lg-screen ) {
+      font-size: 2rem;
+    }
   }
 
   p {
     font-size: 1rem;
     margin-bottom: 0;
+
+    @media screen and ( min-width: $lg-screen ) {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
   }
 
   nav {
     border-top: 1px solid $white;
     font-family: $sans;
 
+    @media screen and ( min-width: $lg-screen ) {
+      border: 0;
+    }
+
     ul {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+
+      @media screen and ( min-width: $lg-screen ) {
+        display: block;
+      }
     }
 
     li {
       border-left: 1px solid $white;
 
-      &:first-child {
+      @media screen and ( min-width: $lg-screen ) {
         border-left: 0;
+        border-top: 1px solid $white;
+      }
+
+      &:first-child {
+        border: 0;
       }
     }
 
