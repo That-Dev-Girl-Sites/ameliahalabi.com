@@ -1,0 +1,11 @@
+title: Amelia Halabi
+production_url: https://www.ameliahalabi.com
+
+icons: '/assets/icons'
+images: '/assets/images'
+
+sass:
+  sass_dir: '/assets/_sass'
+  style: compressed
+
+permalink: /blog/:title
