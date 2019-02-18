@@ -1,0 +1,30 @@
+/**
+ * Gallery styles.
+ */
+
+img {
+  border-radius: 0.5rem;
+  height: 100%;;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  img {
+    margin-bottom: 1rem;
+
+    @media screen and ( min-width: $md-screen ) {
+      max-height: 48%;
+      max-width: 48%;
+    }
+
+    @media screen and ( min-width: $lg-screen ) {
+      max-height: 32%;
+      max-width: 32%;
+    }
+  }
+}

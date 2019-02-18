@@ -9,3 +9,12 @@ Mommy and I spent a bunch of days in the hospital after I was born. So much happ
 I lost a bunch of weight in the hospital. They tell me that is normal, but I lost just a little too much so I have to go see the doctor right after we get home to make sure I am gaining enough weight back.
 
 Yusef helped to get us all home, because Mommy isn’t allowed to lift very much or drive yet.
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2018-08-03.01.jpg)
+  ![]( {{ site.url }}/assets/images/2018-08-03.02.jpg)
+  ![]( {{ site.url }}/assets/images/2018-08-03.03.jpg)
+  ![]( {{ site.url }}/assets/images/2018-08-03.04.jpg)
+  ![]( {{ site.url }}/assets/images/2018-08-03.05.jpg)
+  ![]( {{ site.url }}/assets/images/2018-08-03.06.jpg)
+</span>
