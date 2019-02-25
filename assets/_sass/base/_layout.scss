@@ -11,6 +11,7 @@ main {
   margin: 0 auto;
   max-width: $max-width;
   padding: 4rem 2rem;
+  width: 100%;
 
   @media screen and ( min-width: $lg-screen ) {
     padding: 3rem 4rem;

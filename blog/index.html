@@ -1,0 +1,51 @@
+---
+layout: home
+title: My Blog
+---
+
+<h1>My Blog</h1>
+
+<!-- post list -->
+<ul class="blog-index-posts">
+  {% for post in paginator.posts %}
+    <li class="post">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="title">
+        <h2>{{ post.title }}</h2>
+      </a>
+
+      <p class="date">
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+      </p>
+
+      {{ post.content }}
+    </li>
+  {% endfor %}
+</ul>
+
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">&laquo; Newer</a>
+  {% else %}
+    <span class="previous">&laquo; Newer</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="current">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/blog">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Older &raquo;</a>
+  {% else %}
+    <span class="next">Older &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

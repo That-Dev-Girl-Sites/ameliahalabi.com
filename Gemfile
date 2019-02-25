@@ -6,3 +6,6 @@ gem "jekyll", "3.7.3"
 
 # theme
 gem "minima"
+
+# plugins
+gem "jekyll-paginate"
