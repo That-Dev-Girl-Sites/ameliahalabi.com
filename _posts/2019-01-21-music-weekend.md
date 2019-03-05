@@ -15,3 +15,9 @@ Saturday night, Mommy decided to go to the show. She left me with a babysitter. 
 Sunday we took a road trip to a diner in Maryland to surprise Aunt Gussie and Aunt Charmaine. Aunt Lisa organized all of us to go to brunch together. It was a great surprise! I sat in a high chair for the first time. (Kind of. I was in my car seat, but on top of a high chair.) I tried mashed potatoes too. They were ok, I guess.
 
 Sunday night, we went back to the Birchmere and we spent more time back stage. Mommy wanted to listen to the opening band that night, but I wasn't too happy about staying up past my bedtime. We went home right after they finished playing. They were good, but I need my cutie sleep!
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2019-01-21.01.jpg)
+  ![]( {{ site.url }}/assets/images/2019-01-21.02.jpg)
+  ![]( {{ site.url }}/assets/images/2019-01-21.03.jpg)
+</span>

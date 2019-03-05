@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Baby's First Fever"
-date: "2019-02-05"
+date: "2019-02-06"
 ---
 
 Yesterday, I went in for my 6-month checkup. I grew! (No surprise there.) I did not grow a whole lot, but I am bigger than I was before and the doctor is OK with that.
@@ -13,3 +13,8 @@ What was even worse is that I got my very first fever last night. My temperature
 In the meantime, I got to be **naked baby!!**
 
 My fever did come down today, but I had to stay home from day care anyway. Mommy and I spent the whole day together, mostly snuggling (and being naked!).
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2019-02-06.01.jpg)
+  ![]( {{ site.url }}/assets/images/2019-02-06.02.jpg)
+</span>

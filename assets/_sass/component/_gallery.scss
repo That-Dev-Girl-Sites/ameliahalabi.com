@@ -12,10 +12,11 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   img {
     margin-bottom: 1rem;
+    margin-right: 1%;
 
     @media screen and ( min-width: $md-screen ) {
       max-height: 48%;

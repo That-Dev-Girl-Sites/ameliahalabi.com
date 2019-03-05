@@ -30,3 +30,13 @@ em, i {
 strong, b {
   font-weight: bold;
 }
+
+blockquote {
+  border-left: 0.5rem solid lighten( $gray, 40% );
+  margin-bottom: 2rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
