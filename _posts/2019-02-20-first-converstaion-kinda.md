@@ -16,3 +16,7 @@ I had my first full conversation with Mommy this morning. It went something like
 > Me: _Blah!_ <br>
 
 I am happy to say, with my only word, I had the last word.
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2019-02-20.01.jpg)
+</span>
