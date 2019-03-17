@@ -9,3 +9,9 @@ Wow… I start day care tomorrow. Mommy seems to be sad about that. Really we bo
 However, today, Mommy and I spent the whole day together. It was a really pretty day out, so we went for a long walk up to Kingstowne. We shopped a little, then had lunch outside at Fiona’s. Well, Mommy had lunch. I watched and enjoyed the weather.
 
 After we got home, we had bath time, then I watched my first full movie with Mommy. We watched /Coco/. I really loved the music, but movies are long. I fell asleep in the middle of it. I guess that was a good thing. I’m going to have an exciting day tomorrow!
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2018-11-04.01.jpg)
+  ![]( {{ site.url }}/assets/images/2018-11-04.02.jpg)
+  ![]( {{ site.url }}/assets/images/2018-11-04.03.jpg)
+</span>

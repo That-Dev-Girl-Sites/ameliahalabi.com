@@ -10,4 +10,11 @@ Yesterday, I went to my first birthday party! Marcus and Jacob turned 1 year old
 
 Today, I went to my first concert! Well, it was really a fundraiser for puppies, but Mommy’s friend Robbie was playing some of his songs, so she is counting this as my first concert. I listened to the first 2 songs, but then I wasn’t feeling too great, so I started crying and crying, and we didn’t hear the last 2 songs he played. But that’s OK. Mommy took care of me and we went home. I am much better now.
 
-Happy 2-month birthday to me! I’m pooped now! (Pun kind of intended.) 
+Happy 2-month birthday to me! I’m pooped now! (Pun kind of intended.)
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2018-09-30.01.jpg)
+  ![]( {{ site.url }}/assets/images/2018-09-30.02.jpg)
+  ![]( {{ site.url }}/assets/images/2018-09-30.03.jpg)
+  ![]( {{ site.url }}/assets/images/2018-09-30.04.jpg)
+</span>

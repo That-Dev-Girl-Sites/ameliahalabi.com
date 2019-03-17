@@ -12,4 +12,12 @@ Mommy had to have a cesarean section to give birth to me, so I didn’t see her 
 
 There was music playing in the operating room when I was born. Mommy says it was a song by Norah Jones, but she doesn’t know which song it was.
 
-Teta was the first to hold me, but the. When the doctors were all done with Mommy, they gave me to her. Mommy held me for a long time, even though she wasn’t feeling too well. I was laying in her stomach in the recovery and felt warm and loved. 
+Teta was the first to hold me, but the. When the doctors were all done with Mommy, they gave me to her. Mommy held me for a long time, even though she wasn’t feeling too well. I was laying in her stomach in the recovery and felt warm and loved.
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2018-07-31.01.jpg)
+  ![]( {{ site.url }}/assets/images/2018-07-31.02.jpg)
+  ![]( {{ site.url }}/assets/images/2018-07-31.03.jpg)
+  ![]( {{ site.url }}/assets/images/2018-07-31.04.jpg)
+  ![]( {{ site.url }}/assets/images/2018-07-31.05.jpg)
+</span>

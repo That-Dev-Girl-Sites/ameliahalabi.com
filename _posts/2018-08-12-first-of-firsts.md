@@ -9,5 +9,5 @@ Today was a big day for me. I got my belly button today! Mommy started to change
 My belly button is bothering me a little bit but Mommy is super excited that it’s there, so I guess this is a good thing.
 
 <span class="gallery">
-![]( {{ site.url }}/assets/images/2018-08-12.01.jpg)
+  ![]( {{ site.url }}/assets/images/2018-08-12.01.jpg)
 </span>
