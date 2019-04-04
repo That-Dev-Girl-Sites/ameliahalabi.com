@@ -5,6 +5,7 @@
 $white:        #fff;
 $black:        #333;
 $gray:         #444;
+$lightgray:    #dfdfdf;
 
 $darklavender: #8169a4;
 $orchid:       #ca2fb8;
@@ -16,13 +17,14 @@ $navy:         #43416b;
  * Fonts
  */
 
-$sans:  'Comfortaa', sans-serif;
-$serif: 'Scope One', serif;
+$sans:   'Comfortaa', sans-serif;
+$script: 'Indie Flower', sans-serif;
+$serif:  'Scope One', serif;
 
 /**
  * Sizes
  */
 
 $max-width: 900px;
-$lg-screen: 900px;
+$lg-screen: 960px;
 $md-screen: 600px;

@@ -3,15 +3,20 @@
  */
 
 .post {
-  h1 {
+  .title {
     border-bottom: 1px solid lighten( $black, 50% );
+    color: $black;
+    font-family: $script;
     margin-bottom: 1rem;
-    padding-bottom: 0.25rem;
+    text-decoration: none;
+
+    h2 {
+      border-bottom: 1px solid lighten( $black, 50% );
+    }
   }
 
   .date {
     font-size: 0.9rem;
-    font-style: italic;
     margin-bottom: 2rem;
   }
 }

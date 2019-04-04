@@ -8,4 +8,4 @@ gem "jekyll", "3.7.3"
 gem "minima"
 
 # plugins
-gem "jekyll-paginate"
+gem "jekyll-paginate-v2"

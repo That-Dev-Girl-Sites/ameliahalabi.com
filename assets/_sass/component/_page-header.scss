@@ -5,70 +5,44 @@
 .page-header {
   background: $black;
 
-  .title {
-    color: $white;
-    font-family: $sans;
-    margin: 0 auto;
-    padding: 3rem 0;
+  @media screen and ( min-width: $lg-screen ) {
+    display: grid;
+    grid-template-columns: 1fr 20rem;
+  }
+
+  /* Site title */
+
+  .site-title {
+    font-family: $script;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    position: relative;
     text-align: center;
-    width: 80%;
-  }
-
-  h1 {
-    border-bottom: 1px solid $white;
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
+    text-transform: lowercase;
+    top: 0.15rem;
 
     @media screen and ( min-width: $lg-screen ) {
-      font-size: 2rem;
-    }
-  }
-
-  p {
-    font-family: $serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 0;
-  }
-
-  nav {
-    border-top: 1px solid $white;
-    font-family: $sans;
-
-    @media screen and ( min-width: $lg-screen ) {
-      border: 0;
-    }
-
-    ul {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-
-      @media screen and ( min-width: $lg-screen ) {
-        display: block;
-      }
-    }
-
-    li {
-      border-left: 1px solid $white;
-
-      @media screen and ( min-width: $lg-screen ) {
-        border-left: 0;
-        border-top: 1px solid $white;
-      }
-
-      &:first-child {
-        border: 0;
-      }
+      font-size: 1.5rem;
+      margin-bottom: 0;
+      margin-left: 0.25rem;
+      text-align: left;
     }
 
     a {
       color: $white;
-      display: inline-block;
-      padding: 1rem 0;
-      text-align: center;
       text-decoration: none;
-      width: 100%;
+    }
+  }
+
+  /* Navigation */
+
+  .site-navigation ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.35rem 0.25rem;
+
+    li {
+      margin: 0 0.1rem;
     }
 
     li:nth-child( 1 ) a {
@@ -87,12 +61,15 @@
       }
     }
 
-    li:nth-child( 3 ) a {
-      background: $navy;
-
-      &:hover, &:focus {
-        background: darken( $navy, 10% );
-      }
+    a {
+      color: $white;
+      display: inline-block;
+      font-family: $sans;
+      font-size: 0.85rem;
+      padding: 0.6rem 0;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
     }
   }
 }
