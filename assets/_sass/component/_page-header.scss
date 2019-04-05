@@ -3,7 +3,9 @@
  */
 
 .page-header {
-  background: $black;
+  background: $gray;
+  position: fixed;
+  width: 100%;
 
   @media screen and ( min-width: $lg-screen ) {
     display: grid;
@@ -13,13 +15,13 @@
   /* Site title */
 
   .site-title {
-    font-family: $script;
+    font-weight: normal;
     margin-bottom: 0.5rem;
     padding: 0.5rem;
     position: relative;
     text-align: center;
     text-transform: lowercase;
-    top: 0.15rem;
+    top: 0.25rem;
 
     @media screen and ( min-width: $lg-screen ) {
       font-size: 1.5rem;
@@ -39,25 +41,25 @@
   .site-navigation ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0.35rem 0.25rem;
+    padding: 0.2rem 0.25rem;
 
     li {
-      margin: 0 0.1rem;
+      margin: 0 1rem;
     }
 
     li:nth-child( 1 ) a {
-      background: $orchid;
+      border-bottom: 0.2rem solid $orchid;
 
       &:hover, &:focus {
-        background: darken( $orchid, 10% );
+        background: $orchid;
       }
     }
 
     li:nth-child( 2 ) a {
-      background: $darklavender;
+      border-bottom: 0.2rem solid $darklavender;
 
       &:hover, &:focus {
-        background: darken( $darklavender, 10% );
+        background: $darklavender;
       }
     }
 
