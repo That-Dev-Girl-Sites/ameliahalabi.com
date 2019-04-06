@@ -7,12 +7,26 @@ body {
   font-family: $serif;
 }
 
-h1, h2 {
+h1 {
   font-family: $script;
   font-size: 4rem;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 3rem;
+}
+
+h2 {
+  font-family: $script;
+  font-size: 2.75rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+
+  &.index-post-heading {
+    font-size: 4rem;
+    margin-top: 0;
+  }
 }
 
 p {

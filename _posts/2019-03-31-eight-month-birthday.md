@@ -20,3 +20,13 @@ I can start chewing things with my gums. (No teeth yet!) I am drinking more wate
 I am saying more and more sounds. I love to shout. I say things like "aaah" and "oooh". I still say "ba ba" and "da da" a lot, but I am also saying "waa waa" and "t t". I blow raspberries and that makes me laugh a lot. And I absolutely love it when Mommy says any of these things with me.
 
 But, most fun of all, is when Mommy tries to drum something on the side of my crib or on the table and I try to copy what she's doing. I don't really get it, but I am definitely trying to do what she does!
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2019-03-31.01.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-31.02.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-31.03.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-31.04.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-31.05.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-31.06.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-31.07.jpg)
+</span>

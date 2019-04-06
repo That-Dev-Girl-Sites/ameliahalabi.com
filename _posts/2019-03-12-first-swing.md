@@ -9,3 +9,10 @@ Today, Mommy and I went for a walk around the neighborhood and we visited the pl
 ***Wheeeeeeee!!***
 
 That was So. Much. Fun!! I want to do this every day!
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2019-03-12.01.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-12.02.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-12.03.jpg)
+  ![]( {{ site.url }}/assets/images/2019-03-12.04.jpg)
+</span>
