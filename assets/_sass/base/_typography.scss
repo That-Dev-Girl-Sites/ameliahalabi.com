@@ -7,17 +7,9 @@ body {
   font-family: $serif;
 }
 
-h1 {
+h1, h2 {
   font-family: $script;
-  font-size: 3.75rem;
-  font-weight: bold;
-  line-height: 1;
-  margin-bottom: 3rem;
-}
-
-h2 {
-  font-family: $script;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 3rem;

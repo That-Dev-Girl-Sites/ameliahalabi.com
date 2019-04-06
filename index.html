@@ -26,26 +26,18 @@ pagination:
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">&laquo; Newer</a>
-  {% else %}
-    <span class="previous">&laquo; Newer</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="current">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="/blog">{{ page }}</a>
+  <p>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="older">&laquo; Older Posts</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <span class="older">&laquo; Older Posts</span>
     {% endif %}
-  {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Older &raquo;</a>
-  {% else %}
-    <span class="next">Older &raquo;</span>
-  {% endif %}
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="newer">Newer Posts &raquo;</a>
+    {% else %}
+      <span class="newer">Newer Posts &raquo;</span>
+    {% endif %}
+  </p>
 </div>
 {% endif %}

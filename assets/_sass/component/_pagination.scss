@@ -3,38 +3,39 @@
  */
 
 .pagination {
-  border-top: 1px solid lighten( $gray, 30% );
-  padding-top: 2rem;
+  font-family: $script;
+  font-weight: bold;
+  text-align: center;
+
+  p {
+    border-top: 0.5rem solid $gray;
+    display: inline-block;
+    padding: 1.5rem 0.5rem 0 0.5rem;
+  }
 
   a {
-    border: 1px solid $black;
     color: $black;
-    padding: 0.25rem 0.5rem;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      background: $black;
-      color: $white;
+      background: lighten( $darklavender, 25% );
     }
   }
 
-  .current {
-    background-color: $darklavender;
-    color: $white;
-    padding: 0.25rem 0.75rem;
+  .older {
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
   }
 
-  .previous {
-    margin-right: 0.5rem;
+  .newer {
+    margin-left: 1rem;
+    padding: 0.25rem 0.5rem;
   }
 
-  .next {
-    margin-left: 0.5rem;
-  }
-
-  span.previous,
-  span.next {
+  span.older,
+  span.newer {
     color: lighten( $gray, 20% );
+    text-decoration: line-through; 
   }
 }

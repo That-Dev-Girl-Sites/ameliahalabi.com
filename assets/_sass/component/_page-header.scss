@@ -45,21 +45,27 @@
 
     li {
       margin: 0 1rem;
+
+      a {
+        border-bottom: 0.3rem solid;
+        position: relative;
+        top: 0.2rem;
+      }
     }
 
     li:nth-child( 1 ) a {
-      border-bottom: 0.2rem solid $orchid;
+      border-bottom-color: $orchid;
 
       &:hover, &:focus {
-        background: $orchid;
+        background-color: $orchid;
       }
     }
 
     li:nth-child( 2 ) a {
-      border-bottom: 0.2rem solid $darklavender;
+      border-bottom-color: $darklavender;
 
       &:hover, &:focus {
-        background: $darklavender;
+        background-color: $darklavender;
       }
     }
 

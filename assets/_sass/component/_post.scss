@@ -3,7 +3,13 @@
  */
 
 .post {
-  margin-bottom: 6rem;
+  border-bottom: 1px dashed lighten( $gray, 40% );
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+
+  &:last-child {
+    border-bottom: 0;
+  }
 
   .title {
     color: $black;
@@ -12,19 +18,14 @@
 
   a.title {
     &:hover, &:focus {
-      color: darken( $darklavender, 20% );
+      color: darken( $orchid, 20% );
     }
   }
 
-  h1.title {
-    margin-top: 3rem;
-  }
-
   .date {
-    border-bottom: 1px solid lighten( $black, 50% );
     color: darken( $queenpink, 40% );
     font-family: $sans;
-    font-size: 1rem;
-    margin-bottom: 3rem;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
   }
 }
