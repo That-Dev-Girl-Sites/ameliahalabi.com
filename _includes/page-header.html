@@ -6,8 +6,13 @@
 
   <nav class="site-navigation" aria-label="Main navigation">
     <ul>
-      <li><a href="/">Posts</a></li>
-      <li><a href="/photos">Photos</a></li>
+      {% for item in site.data.navigation.nav %}
+        <li>
+          <a href="{{ item.url }}" {% if item.url == page.url or page.url contains item.alturl or page.id == 'home' and item.title == 'Posts' %}class="active"{% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
 </header>

@@ -1,0 +1,6 @@
+nav:
+  - title: Posts
+    url: /
+    alturl: /blog/
+  - title: Photos
+    url: /photos/

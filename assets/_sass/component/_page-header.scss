@@ -56,7 +56,7 @@
     li:nth-child( 1 ) a {
       border-bottom-color: $orchid;
 
-      &:hover, &:focus {
+      &:hover, &:focus, &.active {
         background-color: $orchid;
       }
     }
@@ -64,7 +64,7 @@
     li:nth-child( 2 ) a {
       border-bottom-color: $darklavender;
 
-      &:hover, &:focus {
+      &:hover, &:focus, &.active {
         background-color: $darklavender;
       }
     }
