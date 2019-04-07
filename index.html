@@ -29,13 +29,13 @@ pagination:
 <div class="pagination">
   <p>
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="older">&laquo; Older Posts</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}" class="older">&laquo; Older Posts</a>
     {% else %}
       <span class="older">&laquo; Older Posts</span>
     {% endif %}
 
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="newer">Newer Posts &raquo;</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}" class="newer">Newer Posts &raquo;</a>
     {% else %}
       <span class="newer">Newer Posts &raquo;</span>
     {% endif %}
