@@ -19,3 +19,10 @@ I stayed home from school again on Monday, which was probably a good thing becau
 This morning I went to see the doctor again. I had a regular check up anyway but we mostly talked about this cold. I am feeling much better now and the doctor said I should be able to go back to school as soon as I am fever-free for a whole day. (I stayed home from school again today, too.)
 
 Guess what. I did not get a fever today! I am so glad to be feeling better now and can't wait to go back to school tomorrow. Yay!
+
+<span class="gallery">
+  ![]( {{ site.url }}/assets/images/2019-05-07.01.jpg)
+  ![]( {{ site.url }}/assets/images/2019-05-07.02.jpg)
+  ![]( {{ site.url }}/assets/images/2019-05-07.03.jpg)
+  ![]( {{ site.url }}/assets/images/2019-05-07.04.jpg)
+</span>
