@@ -24,4 +24,6 @@ We waiting until the rain let up at least a little bit and then ran to the cars 
 
 When we got back to Aunt Dina's house, the entire dining room was decorated for **a birthday party for me!!!** Because I won't see any of them on my actual birthday next month, they threw me a party. There was cake and presents. Everyone sang "Happy Birthday" to me and I got my own _giant_ cupcake with a yellow frosting flower. I _loved_ the frosting. I couldn't get enough. Even after Mommy flipped the cupcake upside-down to try to get me to eat the cake part, I figured out out to grab the bottom for _more frosting_! Yummy. :)
 
+## Monday: Heading home
 
+We flew back home today. Mommy, Teta, and I all drove to the airport together because our flight and Teta's flight were leaving around the same time. After we got through security, we all had lunch and then got on the plane. This time, I was awake for take off, but I was super hungry, so I ate _again_ on the plane just before take off. I fell asleep a little while after we were in the air and woke up just as we were landing. I like these in-the-air naps.
